@@ -6,13 +6,13 @@ let closeWindow = document.querySelector(".lightbox__button");
 let closeOverlay = document.querySelector(".lightbox__overlay");
 
 let imgarr = [];
-gallery.forEach(({ preview, description, original }) => {
+gallery.forEach(({ preview, description, original, style}) => {
   let li = document.querySelector(".gallery");
   li.insertAdjacentHTML(
     "afterbegin",
-    `<li class="gallery__item">
+    `<li class="${style}">
     <a class="gallery__link" href="${original}">
-      <img class="gallery__image" src="${preview}" data-source="${original}" alt="${description}"/>
+      <img class="img__style " src="${preview}" data-source="${original}" alt="${description}"/>
     </a>
   </li>`
   );
@@ -30,6 +30,7 @@ function openModalWindow(event) {
   // console.log(event.target.alt);
   window.addEventListener("keydown", keys);
   closeOverlay.addEventListener("click", closeModalWindow);
+  
 }
 
 function closeModalWindow(event) {

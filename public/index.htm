@@ -5,44 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/tmp.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="wrap__header">
             <h1 class="header__name">Roman Bobrovskyi - desinger of paragliders and rescue systems</h1>
             <p class="header__text">Hello, I’m Roman. My relationship with paragliding started at a young age, and has
                 become my life-long love. On this website, you'll discover photo some of my projects.</p>
-        </div>
-        <div class="box__contact">
-            <a class="button" href="#popup1">Contact Me</a>
-        </div>
-        <div id="popup1" class="overlay">
-            <div class="popup">
-                <h2>Here i am</h2>
-                <a class="close" href="#">&times;</a>
-                <div class="content">
-                    Thank to pop me out of that button, but now i'm done so you can close this window.
-                </div>
             </div>
+            <div class="box__contact">
+                <button type="button" class="contact__button" data-action="open__contactWindow">
+                    Contact Me</button>
+                <button type="button" class="close__cotactBtn lightbox__button" data-action="close-lightbox"></button>
+            </div>
+        
     </header>
     <main>
-        <ul class="container gallery js-gallery"></ul>
+        
+        <ul class="gallery js-gallery"></ul>    
         <div class="lightbox js-lightbox">
             <div class="lightbox__overlay"></div>
 
             <div class="lightbox__content">
                 <img class="lightbox__image" src="" alt="" />
             </div>
+
             <button type="button" class="lightbox__button" data-action="close-lightbox"></button>
-        </div>
+        </div> 
+     
     </main>
     <footer></footer>
 
     <script src="./js/gallery.js" type="module"></script>
-    <!-- <script src="./js/contact.js" type="module"></script> -->
 </body>
 
 </html>
