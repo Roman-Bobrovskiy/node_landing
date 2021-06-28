@@ -1,46 +1,46 @@
 export default [
     {
-      description: "escort3",
+      description: "Rescue",
       preview:
-        "./img/G0035776.JPG",
+        "../img/Rescue.jpg",
       original:
-        "./img/G0035776.JPG",
+      "../img/Rescue.jpg",
         style: "obj12",
     },
     {
-      description: "sunflower, nature, flora",
+      description: "Scooter2",
       preview:
-      "./img/G0035776.JPG",
+      "../img/Scooter2_1.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/Scooter2_1.jpg",
         style: "obj11",
     },
     {
-      description: "sunflower, vase, vintage",
+      description: "Mystic4",
       preview:
-      "./img/G0035776.JPG",
+      "../img/Mystic4.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/Mystic4.jpg",
         style: "obj10",
     },
     {
-      description: "spring-bird",
+      description: "Scooter2",
       preview:
-      "./img/G0035776.JPG",
+      "../img/small/DSC03702_s.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/DSC03702.jpg",
         style: "obj9",
     },
     {
-      description: "lilies, yellow, flowers",
+      description: "Slalom",
       preview:
-      "./img/G0035776.JPG",
+      "../img/small/IMG_4416_s.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/IMG_4416.jpg",
         style: "obj8",
     },
     {
-      description: "sunflower, flower, plant",
+      description: "Scout XXL",
       preview:
       "../img/small/IMG_3837_s.jpg",
       original:

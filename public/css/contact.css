@@ -83,7 +83,7 @@
   max-height: 30%;
   overflow: auto;
 }
-.phone {
+.icons {
   width: 32px;
   height: 32px;
   margin: 10px;
@@ -94,7 +94,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .box {
     width: 70%;
   }
