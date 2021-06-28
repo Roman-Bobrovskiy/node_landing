@@ -228,5 +228,10 @@ li {
     flex-direction: column;
     justify-content: center;
   }
+  .wrap__footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
  
 }
