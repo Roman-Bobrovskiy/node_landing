@@ -61,8 +61,8 @@ export default [
   },
   {
     description: "Moscito4",
-    preview: "./img/Moscito4.jpg",
-    original: "./img/Moscito4.jpg",
+    preview: "/img/Moscito4.jpg",
+    original: "/img/Moscito4.jpg",
     style: "obj2",
   },
   {
