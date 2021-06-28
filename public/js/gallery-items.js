@@ -42,21 +42,21 @@ export default [
     {
       description: "sunflower, flower, plant",
       preview:
-      "./img/G0035776.JPG",
+      "../img/small/IMG_3837_s.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/IMG_3837.jpg",
         style: "obj7",
     },
     {
-      description: "sunflower, yellow, flower",
+      description: "Moscito4",
       preview:
-      "./img/G0035776.JPG",
+      "../img/small/DSC02896_s.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/DSC02896.jpg",
         style: "obj6",
     },
     {
-      description: "yellow, natural, flower",
+      description: "Escort3",
       preview:
       "./img/G0035776.JPG",
       original:
@@ -64,27 +64,27 @@ export default [
         style: "obj5",
     },
     {
-      description: "drip, blossom, bloom",
+      description: "Moscito4",
       preview:
-      "./img/G0035776.JPG",
+      "../img/small/IMG_4426_s.JPG",
       original:
-      "./img/G0035776.JPG",
+      "../img/IMG_4426.JPG",
         style: "obj4",
     },
     {
-      description: "flower, life, crack",
+      description: "Scotch",
       preview:
-        "./img/G0035776.JPG",
+        "../img/IMG_3175.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/IMG_3175.jpg",
         style: "obj3",
     },
     {
-      description: "crocus, flower, wet",
+      description: "Moscito4",
       preview:
-      "./img/G0035776.JPG",
+      "../img/Moscito4.jpg",
       original:
-      "./img/G0035776.JPG",
+      "../img/Moscito4.jpg",
         style: "obj2",
     },
     {
